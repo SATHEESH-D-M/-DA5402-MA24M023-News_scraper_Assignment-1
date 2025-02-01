@@ -4,7 +4,7 @@ Summary:
     # The functions are used in the main module to insert the scrapped data into the database.
 
     # The functions are:
-        - insert_data_into_DB (Part answer to Modules 4 & 5)
+        - insert_data_into_DB (Answers to Modules 4 & 5)
 """
 
 import psycopg2

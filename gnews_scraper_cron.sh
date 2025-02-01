@@ -1,5 +1,5 @@
 # Description: This script is used to run the main.py script and log the output to a file.
-#              This script is called by the cron job scheduler.
+#              This script is to be called by the cron job scheduler.
 
 
 #!/bin/bash
