@@ -26,7 +26,7 @@ python3 ./main.py >> "$LOG_FILE" 2>&1
 echo "=====================================================================" >> "$LOG_FILE"
 echo "Cron job ended at $(date)" >> "$LOG_FILE"
 echo "=====================================================================" >> "$LOG_FILE"
-echo -e "\n" >> "$LOG_FILE"
-echo -e "\n" >> "$LOG_FILE"
+echo  "\n" >> "$LOG_FILE"
+echo  "\n" >> "$LOG_FILE"
 
 
