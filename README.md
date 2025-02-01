@@ -3,7 +3,7 @@
 - Roll No : MA24M023
 - Name : Satheesh D M
 
-This assignment is written entirely in python. A Shell script is used at last.
+This assignment is written entirely in python. A Shell script is used at last for logging. Postgres DB is used to store scraped data.
 ## requirements
 - python3
 - argparse
@@ -44,7 +44,7 @@ This assignment is written entirely in python. A Shell script is used at last.
 - Scraps the home page of Google news.
 - Then collects the url for trendings page (through url id)
 - Then it scraps that page too.
-- All scraped data are made into a pandas df by default (that is how the scrap function is written. refer "scrap_fns.py")
+- All scraped data are made into a pandas df.
 - Then this pandas df is stored into the postgres Database.
 
 ## gnews_scraper_cron.sh
@@ -54,7 +54,7 @@ This assignment is written entirely in python. A Shell script is used at last.
 
 ## "config.ini" file
 - contains the base url link. ("https://news.google.com")
-- also contains the database connection information.
+- also contains the database connection information. (Give your postgres DB connection details here).
 
 ## To run 
 - execute only the "gnews_scraper_cron.sh" file. (it will redirect stdout & stderr to log file.)
